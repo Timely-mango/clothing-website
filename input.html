@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Getting Input from the User</title>
+        <meta http-equiv="author"
+        content="Elijah Ngure"/>
+        <meta name="description"
+        content="Using input controls to get input from the user."/>
+        <meta name="robots"
+        content="nofollow"/>
+        <link href="input.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <h1>Getting Your Feedback.</h1>
+        <form action="#" method="post">
+            <div class="user-details">
+                <fieldset>
+                    <legend>Your Details</legend>
+                    <label>Name: <input id="name" type="text" name="name" placeholder="Your name" required/> </label> <br/>
+                    <label>Email: <input id="email" type="email" name="email" placeholder="Your email address" required/></label>
+                </fieldset>
+            </div> <!--End of use details-->
+            
+            <div class="user-review">
+                <fieldset>
+                    <legend>Your Review:</legend>
+                    <p>
+                        How did you hear about us?
+                        <select name="platform">
+                            <option value="Google">Google</option>
+                            <option value="Email">Email</option>
+                            <option value="Television">Television</option>
+                            <option value="social-media">Social Media</option>
+                        </select>
+                    </p>
+                    <p>
+                        Would you visit again? <br/>
+                        <label><input type="radio" name="visit" value="yes" required/> Yes</label>
+                        <label><input type="radio" name="visit" value="no" required/> No</label>
+                        <label><input type="radio" name="visit" value="maybe" required/> Maybe</label>
+                    </p>
+                    <label>Comments: <br/> <textarea>Any Special Experiences...</textarea></label> <br/>
+                    <label> <input type="checkbox" name="enrol" value="yes" checked="checked"/> Sign me up for email updates</label>
+                    <div class="submit"><input id="submit" type="submit" value="Submit review"/></div>
+                    
+                </fieldset>
+            </div>
+        </form> 
+    </body>
+</html>

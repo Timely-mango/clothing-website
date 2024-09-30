@@ -1,0 +1,75 @@
+/*Center the design. Lightgray background color. double border of gray color.
+  Font Family use serif.*/
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    background-color: lightgrey;
+    border-width: 5px;
+    border-style: double;
+    border-color: gray;
+    padding: 20px;
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    max-width: 940px;
+    min-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+div.header{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.smallHeader{
+    font-family:fantasy;
+    font-style: italic;
+    color:silver;
+    font-size: 16px;
+    margin: 0px;
+}
+.largeHeader{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: gray;
+    margin: 0px;
+}
+/*Inline the menu bar. Have a border line for the top and bottom part only, color it black */
+div.menu{
+    width: 500px;
+    border-bottom: 4px;
+    border-top: 4px;
+    border-right: 0px;
+    border-left: 0px;
+    border-style: solid;
+    border-color: black;
+    margin-left: auto;
+    margin-right:auto;
+}
+li{
+    display:inline;
+    margin: 10px;
+}
+
+/*Set the box width for the content box and remarks box. Center it on the browser window*/
+div.content{
+    width:200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+}
+div.remarks{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', serif;
+    width:500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Italize the logo. Increase its size relative to the text. Make it bold.*/
+.logo{
+    font-style: italic;
+    font-size: 1.2em;
+    font-weight: 2px;
+}
